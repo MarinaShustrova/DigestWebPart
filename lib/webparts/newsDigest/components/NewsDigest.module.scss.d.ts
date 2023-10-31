@@ -1,0 +1,21 @@
+declare const styles: {
+    newsDigest: string;
+    'button-modal': string;
+    modal: string;
+    'modal-content': string;
+    title: string;
+    'button-exit': string;
+    'button-submit': string;
+    buttonContainer: string;
+    ImgContainer: string;
+    Img: string;
+    SingleStyle: string;
+    NewsContainer: string;
+    newsBody: string;
+    TitleContainer: string;
+    TitleStyling: string;
+    DescriptionContainer: string;
+    AuthorContainer: string;
+    SingleStyleContainer: string;
+};
+export default styles;

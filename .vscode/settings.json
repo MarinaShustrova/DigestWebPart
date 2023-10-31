@@ -144,5 +144,6 @@
     "часть",
     "чекбокса",
     "Этот"
-  ]
+  ],
+  "git.ignoreLimitWarning": true
 }
