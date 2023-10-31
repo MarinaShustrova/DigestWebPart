@@ -1,0 +1,173 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.newsDigest {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(97, 92, 92);
+
+  .button-modal {
+    /* Стили для кнопки "Создать рассылку" */
+    display: flex;
+    background-color: #0078d4;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+  }
+
+  .modal {
+    /* Стили для модального окна (фоновая затемненная область) */
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+    z-index: 9999; /* Поверх других элементов */
+  }
+
+  .modal-content {
+    /* Стили для контента модального окна */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    max-width: 200%; /* Ширина контента */
+    overflow-y: auto;
+    overflow-x: auto;
+    max-height: 100%;
+  }
+
+  /* Дополнительные стили по вашему дизайну */
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(97, 92, 92);
+  }
+
+  /* Стили для чекбоксов и меток */
+  input[type="checkbox"] {
+    margin: 20px;
+    height: 17px;
+    width: 17px;
+  }
+
+  /* Стили для кнопки закрыть */
+  .button-exit {
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    background-color: #0078d4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 3px 3px;
+  }
+
+  /* Стили для кнопки подтвердить */
+  .button-submit {
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    display: flex;
+    background-color: #0078d4;
+    color: #ffffff;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 3px 3px;
+  }
+
+  /* Стили для контейнера кнопок  подтвердить и отменить */
+  .buttonContainer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Стили для контейнера фотографии */
+  .ImgContainer {
+    width: 180px;
+    height: 153px;
+    float: left;
+    overflow: hidden;
+    padding: 5px 0px 0px 0px;
+  }
+
+  /* Стили для фотографии */
+  .Img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Стили для отображения новостей  общие  */
+  .SingleStyle {
+    .NewsContainer {
+      height: 173px;
+      margin-bottom: 15px;
+    }
+
+    .newsBody {
+      float: left;
+      margin-left: 20px;
+    }
+ /* Стили для контейнера тайтла */
+    .TitleContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 20px;
+      padding: 8px 0px;
+      text-decoration: none;
+    }
+ /* Стили для самого тайтла  */
+    .TitleStyling {
+      text-decoration: none;
+      color: rgb(91, 83, 83);
+      cursor: auto;
+    }
+
+    /* Стили для контейнера с текстом новости  */
+    .DescriptionContainer {
+      height: 72px;
+      overflow: hidden;
+      width: 380px;
+      padding: 5px 5px;
+    }
+
+     /* Стили для отображения автора  */
+    .AuthorContainer {
+      float: left;
+      margin-top: 7px;
+      font-size: 11px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: rgb(97, 92, 92);
+    }
+
+     /* Стили для отображения всех новостей  */
+    .SingleStyleContainer {
+      margin-right: 100px;
+      width: 100%;
+    }
+  }
+}

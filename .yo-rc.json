@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.10.0",
+    "libraryName": "news-digest",
+    "libraryId": "c3d2386c-23dd-449c-93d0-aa72c94e027f",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
